@@ -2,17 +2,31 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Microsoft cloud sandbox",
+            "name": "SandYzag_18_11_25",
             "request": "launch",
             "type": "al",
             "environmentType": "Sandbox",
-            "environmentName": "sandbox",
-            "startupObjectId": 22,
-            "startupObjectType": "Page",
+            "environmentName": "SandYzag_18_11_25",
+            "tenant": "00b9e6e4-7eee-4b85-bc62-35509928cb5b",
             "breakOnError": "All",
             "launchBrowser": true,
             "enableLongRunningSqlStatements": true,
-            "enableSqlInformationDebugger": true
+            "enableSqlInformationDebugger": true,
+            "schemaUpdateMode": "ForceSync"
+        }
+        ,
+        {
+            "name": "Sandbox_090125",
+            "request": "launch",
+            "type": "al",
+            "environmentType": "Sandbox",
+            "environmentName": "Sandbox_090125",
+            "tenant": "00b9e6e4-7eee-4b85-bc62-35509928cb5b",
+            "breakOnError": "All",
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true,
+            "schemaUpdateMode": "ForceSync"
         }
     ]
 }
