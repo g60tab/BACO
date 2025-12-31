@@ -18,7 +18,7 @@
     {
       "from": 50100,
       "to": 50149
-    }
+    } 
   ], 
   "resourceExposurePolicy": {
     "allowDebugging": true,
